@@ -1,0 +1,38 @@
+/* 产品中心 */
+/* 产品中心 */
+.produce{
+    width: 900px;
+    height: 800px;
+    /* background-color: red; */
+    position: relative;
+}
+
+
+/* 翻页按钮 */
+.produce-clibut-tou{
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+.produce-clibut-tou:hover{
+    background-color: #d73654;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.produce-clibut{
+    height: 40px;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+}
+.produce-clibut-cen{
+    float: left;
+}

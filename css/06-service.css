@@ -1,0 +1,35 @@
+.service-box{
+    width: 900px;
+    height: 500px;
+    /* background-color: springgreen; */
+}
+.service-box{
+    width: 800px;
+    /* background-color: tan; */
+    margin-top: 50px;
+    padding: 30px;
+}
+.service-box-titB{
+    color: #E56600;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.service-box-titS{
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.service-box-Xd{
+    font-size: 14px;
+    color: #555555;
+    margin: 5px 0;
+}
+.service-box-X{
+    margin: 20px 0;
+}
+.service-img{
+    width: 800px;
+    height: 540px;
+}

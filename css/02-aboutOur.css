@@ -1,0 +1,153 @@
+/* 右边大板块 */
+.dishes{
+    width: 100%;
+    height: 820px;
+    /* background-color: blue; */
+    position: relative;
+}
+.dishes-Xbox{
+    width: 278px;
+    height: 346px;
+    background-color: chartreuse;
+    float: left;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #dacdcd;
+}
+.dishes-Xbox-img{
+    width: 280px;
+    height: 280px;
+}
+.dishes-Xbox-bot-box{
+    width: 240px;
+    height: 70px;
+    padding: 0 20px;
+    background-color: #ffffff;
+    margin-top: -5px;
+    /* line-height: 70px; */
+    position: relative;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid #dacdcd;
+}
+.dishes-Xbox-bot-name{
+    float: left;
+    line-height: 70px;
+}
+.dishes-Xbox-bot-zixun-box{
+    float: right;
+    width: 90px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #D73654;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
+.dishes-Xbox-bot-zixun-TB{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #cc00ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dishes-Xbox-bot-zixun{
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* 黑色背景 */
+.dishes-bg-box{
+    width: 200px;
+    height: 240px;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dishes-bg-2WM-box{
+    width: 180px;
+    height: 220px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.dishes-bg-2WM{
+    width: 180px;
+    height: 180px;
+}
+.dishes-bg-2WM-p{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* 页数按钮 */
+.dishes-Btn-box{
+    /* width: 900px; */
+    height: 40px;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.dishes-Btn-Bbtn{
+    width: 80px;
+    height: 40px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+    font-size: 14px;
+}
+.dishes-Btn-Xbtn{
+    width: 60px;
+    height: 40px;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+}
+
+
+/* 按钮移动和点击效果 */
+.dishes-Btn-Bbtn:hover{
+    background-color: #D73654;
+    color: #ffffff;
+}
+
+.dishes-right-banner{
+    width: 820px;
+    height: 720px;
+    /* background-color: orange; */
+    border: 1px solid #cec7c7;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+
+
+.about-1-img{
+    width: 800px;
+    height: 534px;
+}

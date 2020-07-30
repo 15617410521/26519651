@@ -1,0 +1,28 @@
+.show05-box{
+    width: 900px;
+    height: 600px;
+    /* background-color: red; */
+}
+.show5-box-Xbox{
+    width: 280px;
+    height: 280px;
+    /* background-color: seashell; */
+    margin:10px ;
+    float: left;
+}
+.show5-box-Xbox:hover{
+    transition: all 0.5s;
+    box-shadow: 0 2px 2px #999999;
+}
+.show5-box-Xbox-NR{
+    width: 280px;
+    height: 70px;
+    /* background-color: springgreen; */
+    margin-top: -5px;
+    line-height: 70px;
+    text-align: center;
+}
+.show5-box-Xbox-img{
+    width: 280px;
+    height: 210px;
+}

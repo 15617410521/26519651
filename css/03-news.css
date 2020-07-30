@@ -1,0 +1,26 @@
+.news-box{
+    width: 900px;
+    height: 800px;
+    /* background-color: royalblue; */
+    position: relative;
+}
+.news-box-Xbox{
+    width: 900px;
+    height: 150px;
+    border-bottom: 1px solid #ccc3c3;
+}
+.news-box-img{
+    width: 160px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+}
+.news-box-myNR{
+    width: 710px;
+    height: 120px;
+    /* background-color: red; */
+    float: right;
+    /* margin-left: 20px; */
+    position: absolute;
+    right: 10px;
+}

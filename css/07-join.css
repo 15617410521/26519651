@@ -1,0 +1,87 @@
+.join{
+    width: 900px;
+    height: 700px;
+    /* background-color: tan; */
+    position: relative;
+}
+.join-banner{
+    width: 800px;
+    height: 660px;
+    padding: 20px 40px;
+    /* background-color: thistle; */
+    margin-top: 50px;
+    border: 1px solid #d1c6c6;
+}
+#join-btnX{
+    width: 330px;
+    height: 40px;
+    outline:none;
+    font-size: 24px;
+    border: 1px solid #cebfbf;
+    padding-left: 50px;
+}
+.join-btnX-box{
+    width: 380px;
+    height: 40px;
+    position: relative;
+    background-color: olive;
+    float: left;
+    margin-right: 20px;
+}
+.join-nameX{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #cebfbf;
+}
+.join-MX{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.join-btnD-box{
+    width: 800px;
+    height: 180px;
+
+    background-color: orange;
+    position: relative;
+    margin-top: 100px;
+}
+.join-btnD-box-btn{
+    width: 800px;
+    height: 180px;
+    border: 1px solid #cebfbf;
+    outline: none;
+    resize: none;
+    text-indent: 70px;
+    font-size: 16px;
+}
+.join-btnD-NR{
+    color: #cebfbf;
+    position: absolute;
+}
+.join-foot-btn{
+    width: 232px;
+    height: 42px;
+    background-color: #666666;
+    text-align: center;
+    line-height: 42px;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+.join-foot-btn:hover{
+    cursor: pointer;
+}
+
+
+
+/* 联系我们板块 */
+.tel-map-box{
+    width: 810px;
+    height: 400px;
+    border: 1px solid #cac3c3;
+    overflow: hidden;
+}

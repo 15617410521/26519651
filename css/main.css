@@ -1,0 +1,195 @@
+/* 门店展示部分 */
+.show{
+    width: 100%;
+    height: 890px;
+    /* background-color: yellow; */
+    margin: 20px 0;
+}
+.show-banner{
+    width: 1200px;
+    height: 890px;
+    margin:20px auto;
+    background-color: #ffffff;
+}
+.show-show{
+    width:260px;
+    height: 80px;
+    background-color: #D73654;
+    border-radius: 10px;
+    line-height: 80px;
+    position: relative;
+}
+.show-show-show{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin:0 40px;
+}
+.show-show-dong{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.show-show-2{
+    width: 260px;
+    height: 65px;
+    background-color: #D73654;
+    border-radius: 10px;
+    line-height: 65px;
+    position: relative;
+    margin-top: 30px;
+}
+.show-show-show-2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 40px;
+}
+.show-show-dong-2{
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/* 菜品介绍部分 */
+.show-left{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+}
+.show-left-cen{
+    height: 450px;
+    position: relative;
+    margin-top: 20px;
+    width: 260px;
+    /* background-color: blue; */
+}
+.show-left-cen-pic1{
+    width: 123px;
+    height: 124px;
+}
+.show-left-cen-Xbox{
+    width: 123px;
+    height: 164px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd8d8;
+    text-align: center;
+    float: left;
+}
+.show-left-cen-Xbox:hover{
+    box-shadow: 0 2px 2px #999999;
+}
+.show-left-cen-Xbox:nth-child(1){
+    margin: 0 10px 10px 0;
+}
+.show-left-cen-Xbox:nth-child(2){
+    margin: 0 0 10px 0;
+}
+.show-left-cen-Xbox:nth-child(3){
+    margin: 0 10px 0 0;
+}
+.show-left-cen-name{
+    line-height: 40px;
+    color: #333333;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #ddd8d8;
+}
+/* 热线电话 */
+.show-left-tel{
+    width: 220px;
+    height: 50px;
+    background-color: #D73654;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+.show-left-tel-1{
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}
+.show-left-tel-2{
+    font-size: 26px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* 展开的下拉菜单 */
+.show-show-XL{
+    width: 260px;
+    /* height: 200px; */
+    /* background-color: aqua; */
+    margin-top: 20px;
+    /* color: #db3957; */
+}
+.show-show-XL-but{
+    width: 180px;
+    height: 50px;
+    padding: 0 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #999999;
+    border-radius: 25px;
+    margin-top: 10px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+}
+/* .show-show-XL-but:hover{
+    background-color: #f15673;
+    color: #ffffff;
+    cursor: pointer;
+} */
+/* 右边介绍信息 */
+.show-right{
+    width: 900px;
+    height: 100%;
+    padding-top: 30px;
+    /* background-color: aqua; */
+    float: right;
+}
+.show-right-tit{
+    font-size: 18px;
+    color: #333333;
+}
+.show-right-tit-right{
+    font-size: 14px;
+    color: #333333;
+    float: right;
+    margin-right: 150px;
+}
+.show-right-tit-right a {
+    text-decoration: none;
+    color: #333333;
+}
+.show-right-top{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #333333;
+}
+
+
+
+/* 右边固定定位 */
+.right{
+    background-color: rebeccapurple;
+    width: 50px;
+    height: 240px;
+    position: fixed;
+    right: 30px;
+    top: 300px;
+    z-index: 999999;
+}
+.right-i-box{
+    width: 50px;
+    height: 50px;
+}
+.right-i{
+    font-size: 24px;
+}
